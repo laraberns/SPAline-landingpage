@@ -78,6 +78,11 @@ nav ul li a:hover {
     padding: 4rem;
   }
 }
+@media (max-width: 576px) {
+  .banner .inner-banner {
+    width: 250px;
+  }
+}
 #servicos {
   margin: 80px;
 }
@@ -145,6 +150,18 @@ nav ul li a:hover {
     text-align: center;
   }
 }
+@media (max-width: 576px) {
+  #servicos {
+    margin: 40px;
+  }
+  #servicos h4 {
+    margin-bottom: 40px;
+  }
+  #servicos .cards .card {
+    width: 300px;
+    text-align: center;
+  }
+}
 #cupom {
   background-color: rgba(243, 233, 220, 0.3);
   padding: 4rem;
@@ -209,6 +226,11 @@ nav ul li a:hover {
     font-family: "Montserrat", sans-serif;
   }
 }
+@media (max-width: 576px) {
+  #cupom {
+    padding: 2rem;
+  }
+}
 footer {
   text-align: center;
   font-size: 1.5rem;
@@ -221,6 +243,11 @@ footer i {
   color: rgb(224, 40, 40);
 }
 
+@media (max-width: 576px) {
+  footer {
+    font-size: 1.2rem;
+  }
+}
 #flor {
   display: flex;
   margin: 80px;
@@ -274,5 +301,10 @@ footer i {
   }
   #flor .img img {
     width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  #flor {
+    margin: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

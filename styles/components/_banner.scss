@@ -58,3 +58,11 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .banner {
+        .inner-banner {
+            width: 250px;
+        }
+    }
+}

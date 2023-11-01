@@ -1,6 +1,6 @@
 @import '../abstract/variaveis';
 
-@mixin bg-cores($cores...){
+@mixin bg-cores($cores...) {
   background: linear-gradient(to left, $cores);
 }
 
@@ -14,5 +14,11 @@ footer {
 
   i {
     color: rgb(224, 40, 40);
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    font-size: $tamanho-do-texto/2.5;
   }
 }

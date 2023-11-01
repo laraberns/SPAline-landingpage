@@ -83,3 +83,20 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    #servicos {
+        margin: 40px;
+
+        h4 {
+            margin-bottom: 40px;
+        }
+    
+        .cards {
+        .card {
+            width: 300px;
+            text-align: center;
+        }
+    }
+}
+}
