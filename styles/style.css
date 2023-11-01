@@ -28,7 +28,7 @@ nav ul li a:hover {
     background-color: #F3E9DC;
   }
   nav ul li a {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 .banner {
@@ -306,5 +306,6 @@ footer i {
 @media (max-width: 576px) {
   #flor {
     margin: 40px;
+    gap: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
