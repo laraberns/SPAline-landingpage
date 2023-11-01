@@ -218,7 +218,7 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   #cupom .input {
-    width: 300px;
+    width: 350px;
   }
   #cupom .input input {
     width: 300px;
@@ -229,6 +229,14 @@ nav ul li a:hover {
 @media (max-width: 576px) {
   #cupom {
     padding: 2rem;
+  }
+  #cupom .input {
+    width: 270px;
+  }
+  #cupom .input input {
+    width: 250px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
   }
 }
 footer {
@@ -306,6 +314,6 @@ footer i {
 @media (max-width: 576px) {
   #flor {
     margin: 40px;
-    gap: 3rem;
+    gap: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
