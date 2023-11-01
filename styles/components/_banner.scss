@@ -1,0 +1,60 @@
+@import '../abstract/variaveis';
+
+
+.banner {
+    background-image: url(../../imagens/banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: 27%;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    text-align: center;
+
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-primaria;
+        opacity: 0.8;
+        border-radius: 35px;
+
+        h1 {
+            font-size: $tamanho-do-texto;
+            color: $cor-secundaria;
+            font-weight: 700;
+            margin-bottom: 5px
+        }
+
+        h2 {
+            font-size: $tamanho-do-texto/2;
+            color: $cor-terciaria;
+        }
+
+        img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        .inner-banner {
+            padding: 1.5rem;
+
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .banner {
+        min-height: 550px;
+
+        .inner-banner {
+            padding: 4rem;
+
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import '../abstract/variaveis';
+
+#flor {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .img {
+        border-bottom: 8px solid $cor-secundaria;
+
+        img {
+            max-width: 400px;
+        }
+    }
+
+    .texto {
+        h3 {
+            font-size: $tamanho-do-texto/1.5;
+            font-weight: 300;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            color: $cor-secundaria;
+        }
+
+        h4 {
+            font-size: $tamanho-do-texto/2;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            color: $cor-secundaria;
+        }
+
+
+
+        p {
+            font-size: $tamanho-do-texto/3;
+            font-weight: 300;
+            color: $cor-terciaria;
+            line-height: 1.25rem;
+            letter-spacing: 0.05rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    #flor {
+        flex-direction: column;
+        margin: 60px;
+        text-align: center;
+        gap: 4rem;
+
+        .img {
+            img {
+                width: 300px;
+            }
+        }
+
+    }
+}
+
+@media (min-width: 1400px) {
+    #flor {
+        margin: 80px 200px;
+        gap: 5rem;
+
+        .img {
+            img {
+                width: 500px;
+            }
+        }
+
+    }
+}
